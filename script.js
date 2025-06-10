@@ -1,7 +1,6 @@
-// Aguarda o DOM estar pronto antes de executar o código
 window.addEventListener('DOMContentLoaded', () => {
-  // Seleciona todos os elementos que devem ter animação
-  const elements = document.querySelectorAll('.project, .experience, .about-me, h1, .contact');
+
+    const elements = document.querySelectorAll('.project, .experience, .about-me, h1, .contact');
 
   const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
