@@ -218,13 +218,30 @@ main{
 }
 
 @media (max-width: 600px) {
+  .project {
+    padding-bottom: 48px;
+  }
   .view-repo {
-    position: static;
-    display: block;
+    position: relative;
+    right: 0;
+    bottom: 0;
     margin: 16px 0 0 auto;
     width: fit-content;
-    right: unset;
-    bottom: unset;
+    display: block;
     text-align: right;
+    background: #23008d;
+    color: #fff;
+    border-radius: 18px;
+    padding: 6px 18px;
+    font-size: 1rem;
+    font-weight: 500;
+    z-index: 2;
+    border: none;
+    outline: none;
+  }
+  .view-repo a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
   }
 }
