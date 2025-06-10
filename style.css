@@ -139,7 +139,6 @@ main{
     position: absolute;
     right: 24px;
     bottom: 18px;
-    color: #000000;
     border-radius: 18px;
     padding: 6px 18px;
     font-size: 1rem;
@@ -216,4 +215,16 @@ main{
 .visible {
     opacity: 1;
     transform: translateY(0) !important;
+}
+
+@media (max-width: 600px) {
+  .view-repo {
+    position: static;
+    display: block;
+    margin: 16px 0 0 auto;
+    width: fit-content;
+    right: unset;
+    bottom: unset;
+    text-align: right;
+  }
 }
