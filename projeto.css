@@ -36,7 +36,10 @@ body{
     max-width: 1500px;
     margin: 50px auto;
     padding: 40px;
+    margin-bottom: 10%;
     opacity: 0;
+    filter: blur(15px);
+    transition: all 2s;
 }
 .details-img {
     flex: 0 0 340px;
@@ -86,5 +89,20 @@ body{
 
 .visible{
     opacity: 1;
-    transition: opacity 2s ease-in-out;
+    transition: opacity 2s;
+    filter: blur(0);
+}
+footer {
+    width: 100%;
+    color: #000000;
+    text-align: center;
+    padding: 18px 0 12px 0;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    margin-top: 40px;
+}
+footer a {
+    color: #000000;
+    text-decoration: underline;
+    transition: color 0.2s;
 }

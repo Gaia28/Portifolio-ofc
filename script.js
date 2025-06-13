@@ -24,3 +24,10 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
+const projectAnotacoes = document.getElementById('project-anotacoes');
+if(projectAnotacoes){
+    projectAnotacoes.addEventListener('click', () =>{
+      window.open('projeto-anotacoes.html');
+    });
+}
