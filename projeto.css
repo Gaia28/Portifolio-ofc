@@ -36,6 +36,7 @@ body{
     max-width: 1500px;
     margin: 50px auto;
     padding: 40px;
+    opacity: 0;
 }
 .details-img {
     flex: 0 0 340px;
@@ -81,4 +82,9 @@ body{
     .details-img img {
         max-height: 460px;
     }
+}
+
+.visible{
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
 }

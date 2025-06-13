@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
 
-    const elements = document.querySelectorAll('.project, .experience, .about-me, h1, .contact');
+    const elements = document.querySelectorAll('.project, .experience, .about-me, h1, .contact, .project-details');
 
   const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
