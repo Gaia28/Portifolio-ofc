@@ -149,10 +149,6 @@ main{
    
 }
 
-.view-repo:hover {
-    transform: scale(1.05);
-}
-
 .experiences {
     width: 80%;
     display: flex;
@@ -229,8 +225,7 @@ main{
     width: fit-content;
     display: block;
     text-align: right;
-    background: #23008d;
-    color: #fff;
+    color: #000000;
     border-radius: 18px;
     padding: 6px 18px;
     font-size: 1rem;
@@ -239,9 +234,5 @@ main{
     border: none;
     outline: none;
   }
-  .view-repo a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-  }
+  
 }
